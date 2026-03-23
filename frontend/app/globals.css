@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* VedaAI Brand Colors */
+  --color-veda-orange: #E85D34;
+  --color-veda-dark: #1A1A1A;
+  --color-veda-gray: #6B7280;
+  --color-veda-bg: #F9FAFB;
+  --color-veda-sidebar: #FFFFFF;
+
+  /* Custom Shadows for the A4 Paper effect */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --shadow-paper: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Keep standard Next.js boilerplate below if you want, 
+   but this theme block is all you need for the custom colors */
+body {
+  background-color: var(--color-veda-bg);
+  color: var(--color-veda-dark);
+}
